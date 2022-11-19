@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <script  defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+    <script defer src="js/app.js"  ></script>
+ 
+    <title>Tourism-LandingPage</title>
+</head>
+<body>
+
+
+
+ <header>
+
+ <nav>
+
+    <div class="logo">
+        <img src="img/1.01_Logo.png" alt="img">
+    </div>
+
+    <ul id="nav-menu" class=" d-flex ">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">our servise</a></li>
+        <li><a  class="nav-api" href="apiIndex.html">tour packaeg</a></li>
+    </ul>
+
+    <div class="burger-menu" id="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        </div>
+</nav>
+
+<ul id="addd"></ul>
+
+</header>
+
+
+
+<div class="slider-container">
+
+<div class="img-banner">
+        <img src="img/Clipp1.png" alt="">
+    </div>
+    
+
+<div class="banner-container">
+
+<div class="layer">
+    <p>From $199 / Person</p>
+    <img src="img/Layer 2.png" alt="">
+
+    </div>
+    <h1>discover greece</h1>
+    <h4>travel with unique experience</h4>  
+</div>
+
+<div class="slider-transition">
+
+    <button class="left border-outline"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+    <button class="right border-outline"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+</div>
+    
+</div>
+<section>
+
+<div class="our-services-container">
+    <div class="our-services-container-title">
+        <h2>discover</h2>
+        <h3>our hot servise</h3>
+        <img src="img/Shape 2.png" alt="">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Error amet perferendis tenetur laboriosam quae dolorem et odit nostrum temporibus,</p>
+    </div>
+
+    <div id="arrayContainer" class="d-flex" ></div>
+</div>
+
+  
+<!-- watch our video tour -->
+
+<div class="section-container-videotout">
+
+<div class="videotout-img">
+    <img src="img/Clipp2.png" alt="">
+</div>
+
+<div class="section-container-title">
+    <h2>discover</h2>
+    <h3>warch our video tour</h3>
+    <div class="shape"><img src="img/Shape 1.png" alt=""></div>
+</div>
+
+<div class="videotout-video">
+    <img  class="img-img" src="img/Group 1.png" alt="">
+    <div class="videotout-video-pause ">
+        <img src="img/Forma 1.png" alt="">
+        </div>
+</div>
+</div>
+
+<div class="Offers-container">
+
+<div class="Offers-container-img">
+    <img src="img/Layer 3.png" alt="">
+    <h4>120,859</h4>
+    <p>happy travellers</p>
+</div>
+
+<div class="Offers-container-img">
+    <img src="img/Layer 4.png" alt="">
+    <h4>2594</h4>
+    <p>satisfied tours</p>
+</div>
+<div class="Offers-container-img">
+    <img src="img/Layer 5.png" alt="">
+    <h4>854</h4>
+    <p>destination</p>
+</div>
+<div class="Offers-container-img">
+    <img src="img/Rounded Rectangle 1 copy 2.png" alt="">
+    <h4>978</h4>
+    <p>hotels $ resorts</p> 
+</div>
+
+</div>
+<hr>
+ 
+<!-- popular tour package -->
+
+<div class="popular-tour-package-container d-flex">
+   
+    <div class="popular-tour-package-container-title">
+        <h2>we offer</h2>
+        <h3>popular tour pachage</h3>
+        <img src="img/Shape 2.png" alt="">
+    </div>
+
+<div class="popular-tour-package-container-imgbox">
+     <div class="container-imgbox">
+        <h4>honeymoon</h4>
+        <img src="img/Rectangle 8 copy 3.png" alt="">
+     </div>
+     <div class="popular-tour-package-container-value">
+        <p>$299/Person</p>
+        <h5>blue beauty of greece</h5>
+        <p>5 days / 6 night</p>
+     </div>
+
+</div>
+<div class="popular-tour-package-container-imgbox">
+    <div class="container-imgbox">
+       <h4>holiday</h4>
+       <img src="img/Rectangle 8 copy 4.png" alt="">
+    </div>
+    <div class="popular-tour-package-container-value">
+       <p>$178/Person</p>
+       <h5>nature of phukit</h5>
+       <p>3 days / 4 night</p>
+    </div> 
+
+</div>
+<div class="popular-tour-package-container-imgbox">
+    <div class="container-imgbox">
+       <h4>holiday</h4>
+       <img src="img/Rectangle 8 copy 5.png" alt="">
+    </div>
+    <div class="popular-tour-package-container-value">
+       <p>$1111/Person</p>
+       <h5>world tour of paris</h5>
+       <p>7 days / 8 night</p>
+    </div>
+
+</div>
+
+</div>
+
+<!-- you next travel -->
+
+<div class="nexr-trevel-container">
+<div class="nexr-trevel-container-img">
+    <div class="option-you-next-travel"></div>
+      <img src="img/Clipp.png" alt=""> 
+    
+</div>
+
+<div class="nexr-trevel-container-email">
+    <h5>get 10% 0ff on your next travel</h5>
+    <p>Maximum doscout 1000$ per person </p>
+    <div class="nexr-trevel-container-input">
+        <input class="border-outline" type="email" name="email" placeholder="Enter your email">
+        <button class="border-outline" type="submit">subscribe</button> 
+    </div>
+</div>
+
+    
+</div>
+<!--     happy travel -->
+<div class="happy-travel-container">
+
+<div class="happy-travel d-flex">
+    <div class="happy-travel-container-title">
+        <h2>our smiler</h2>
+        <h3>happy travelers</h3>
+        <img src="img/Shape 2.png" alt="">
+    </div>
+
+
+<div class="happy-travel-container-list">
+    
+    <div class="container-people-description">
+        <div class="container-people-description-img">
+            <img src="img/Clip2.png" alt="">
+            <h4>ribeca singh</h4>
+        </div>
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Error amet perferendis tenetur laboriosam quae dolorem et odit nostrum temporibus,
+                doloribus, delectus velit rerum fuga dolor, cupiditate ab nobis eveniet voluptatibus!
+
+        </p> 
+        <div class="foto">
+            <img src="img/Forma 2.png" alt="">
+        </div> 
+            
+    </div>
+</div> 
+
+
+<div class="happy-travel-container-list">
+    
+    <div class="container-people-description">
+        <div class="container-people-description-img">
+            <img src="img/Clip1.png" alt="">
+            <h4>jimmy dean</h4>
+        </div>
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Error amet perferendis tenetur laboriosam quae dolorem et odit nostrum temporibus,
+                doloribus, delectus velit rerum fuga dolor, cupiditate ab nobis eveniet voluptatibus!
+
+        </p> 
+        <div class="foto">
+            <img src="img/Forma 2.png" alt="">
+        </div> 
+
+            
+    </div>
+</div> 
+<div class="happy-travel-container-list">
+    
+    <div class="container-people-description">
+        <div class="container-people-description-img">
+            <img src="img/Clip3.png" alt="">
+            <h4>theodule terer</h4>
+        </div>
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Error amet perferendis tenetur laboriosam quae dolorem et odit nostrum temporibus,
+                doloribus, delectus velit rerum fuga dolor, cupiditate ab nobis eveniet voluptatibus!
+
+        </p> 
+        <div class="foto">
+            <img src="img/Forma 2.png" alt="">
+        </div>        
+    </div>
+</div> 
+</div> 
+
+
+    <div class="happy-travel-container-img">
+        <div class="happy-travel-container-button">
+            <h4>Ready to plan your trip?</h4>
+            <button class="border-outline" type="submit">book now</button> -->
+            
+            </div> 
+        <img src="img/Clipp3.png" alt="">
+    </div>  
+
+</div>
+
+<!-- popular tourism countries  -->
+
+<div class="popular-tourism-countries-container d-flex">
+
+<div class="popular-tourism-countries-title">
+    <h2>destination</h2>
+    <h3>popular tourism countries</h3>
+    <img src="img/Shape 2.png" alt="">
+</div>
+
+<div class="popular-tourism-countries-box">
+    <div class="color"></div>
+    <div class="popular-tourism-countries-list-paragraph">
+        <p>Thailand</p>
+        <h5>$900-$1900</h5>
+
+    </div>
+    
+    <div class="popular-tourism-countries-button">
+        <button class="border-outline"><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+    </div>
+        <div class="popular-tourism-countries-img">
+        
+        <img src="img/Clip4.png" alt="">
+    
+        </div>
+</div>
+
+<div class="popular-tourism-countries-box">
+    <div class="color"></div>
+    <div class="popular-tourism-countries-list-paragraph">
+        <p>Italy</p>
+        <h5>$700-$2000</h5>
+
+    </div>
+    <div class="popular-tourism-countries-button">
+        
+        <button class="border-outline"><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+    </div>
+<div class="popular-tourism-countries-img">
+    <img src="img/Clip5.png" alt="">
+</div>
+
+</div>
+<div class="popular-tourism-countries-box">
+    <div class="color"></div>
+    <div class="popular-tourism-countries-list-paragraph">
+        <p>Indonesia</p>
+        <h5>$300-$1100</h5>
+
+    </div>
+    <div class="popular-tourism-countries-button">
+        <button class="border-outline"><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+    </div>
+        <div class="popular-tourism-countries-img">
+        <img src="img/Clip6.png" alt="">
+        </div> 
+
+</div>
+<div class="popular-tourism-countries-box">
+    <div class="color"></div>
+    <div class="popular-tourism-countries-list-paragraph">
+        <p> Singapore </p>
+        <h5>$900-$1900</h5>
+
+    </div>
+    <div class="popular-tourism-countries-button">
+        <button class="border-outline"><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+    </div>
+        <div class="popular-tourism-countries-img">
+        <img src="img/image001.jpg" alt="">
+        </div>
+</div>
+</div> 
+</section>
+
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=435&amp;hl=en&amp;q=university of wisconsin-gereen&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"> </iframe>
+        <a href="https://piratebay-proxys.com/">Piratebay</a>
+    </div>
+    <style>
+    .mapouter{position:relative;text-align:right;width:100%;height:435px;}
+    .gmap_canvas {overflow:hidden;background:none!important;width:100%;height:435px;}
+    .gmap_iframe {width:100%!important;height:435px!important;}
+    </style>
+    </div>
+
+
+<footer class="footer">
+    <div class="footer-container">
+    <div class="row">
+           
+<div class="footer-col">
+    <h4>Qulick Links</h4>
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about company</a></li>
+        <li><a href="#">testimonials</a></li>
+        <li><a href="#">infrastructure</a></li>
+    </ul>
+</div>
+
+<div class="footer-col">
+    <h4>support</h4>
+    <ul>
+        <li><a href="#">get started</a></li>
+        <li><a href="#">lorem</a></li>
+        <li><a href="#">help</a></li>
+        <li><a href="#">lpsum</a></li>
+    </ul>
+</div>
+<div class="footer-col">
+    <h4>address</h4>
+    <ul>
+        <li class="font">14,1 ellis bridge ST</li>
+        <li class="font">auckland 3500,australia</li>
+        <li class="font">+1234567890</li>
+        <li>contactus@demo.com</li>
+    </ul>
+</div>
+
+
+
+</div>
+<form>
+<div class="footer-email">
+    <label for="email">Subscribe to our newsletter</label>
+    <input class="border-outline" type="email" name="email" placeholder="Your email">
+    <button class="border-outline" type="submit"><i class="fa-sharp fa-solid fa-envelope"></i></button>
+ </div>
+        
+    </form>
+    <div class="before">
+        
+        <p>trourism all rights reserved</p>
+
+    </div>
+</div>
+
+</footer>
+</body>
+</html>

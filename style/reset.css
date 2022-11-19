@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #8D8D8D;
+	margin-bottom: 6px;
+}
+h3{
+	font-size: 26px;
+	margin-bottom: 6px;
+}
+
+P, h5 ,.font{
+	font-family: Georgia, serif;
+}
+
+.border-outline{
+	border: none;
+	outline: 0;
+}
+.d-flex{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
