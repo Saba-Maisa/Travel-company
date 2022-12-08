@@ -13,7 +13,7 @@ nav{
     padding: 1px 5%;
 }
 nav ul{
-    text-align: center;
+    text-align: center; 
     gap:60px
 }
 nav ul li a:hover{
@@ -86,10 +86,7 @@ left: 0;
 } 
 }
 
-.nav-api{
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-}
+
 
 /*  slider */
  .slider-container{
@@ -781,40 +778,4 @@ border: 2px solid #141418;
 
                                                    /*                                       // api css */
   
-.moveContainer{
-    max-width: 90%;
-    margin: auto;    
-}
-
- .poster{
-      border-radius: 10px;   
-  }
-  #ul{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around; 
-  }
-
-  #ul li{
-      position: relative;
-      margin-bottom: 100px;
-      list-style-type: none;  
-  
-  }
-  
-  .movie-info{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      color: white;
-      display: none;
-      font-weight: bold;
-      font-size: 20px;
-      text-align: center;
-      
-  }
-
-
 
